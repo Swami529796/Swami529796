@@ -92,7 +92,7 @@ Each project covers one stage of the reporting journey, so together they form a 
 
 | Project | What it does | Built with | Updated |
 |---|---|---|---|
-| **[ETL Fx Rates Pipeline](https://github.com/Swami529796/etl-fx-rates-pipeline)** | Incremental ETL from a public exchange-rate API into SQLite, used to convert multi-currency invoices to INR at the rate on each invoice date. | `api` `data-engineering` `etl-pipeline` `python` `sqlite` | 14 Nov 2026 |
+| **[ETL FX Rates Pipeline](https://github.com/Swami529796/etl-fx-rates-pipeline)** | Incremental ETL from a public exchange-rate API into SQLite, used to convert multi-currency invoices to INR at the rate on each invoice date. | `api` `data-engineering` `etl-pipeline` `python` `sqlite` | 14 Nov 2026 |
 | **[ETL Sales Data Warehouse](https://github.com/Swami529796/etl-sales-data-warehouse)** | Incremental ETL pipeline: CSV, Excel and JSON sources into a star-schema warehouse, with idempotent loads, rejected-row tracking and quality checks. | `data-engineering` `data-warehouse` `etl-pipeline` `python` `sqlite` | 14 Nov 2026 |
 
 ### 🤖 Data Science

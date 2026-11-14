@@ -40,7 +40,7 @@ DISPLAY_ORDER = ["📗 Excel &amp; VBA", "🐍 Python", "🗄️ SQL", "🔄 ETL
                  "🧩 Other"]
 LANGUAGE_COLOURS = {"VBA": "#867db1", "Python": "#3776ab", "SQL": "#e38c00", "JavaScript": "#f1e05a",
                     "HTML": "#e34c26", "CSS": "#563d7c"}
-UPPERCASE_WORDS = {"sql", "vba", "etl", "api", "csv", "pdf"}
+UPPERCASE_WORDS = {"sql", "vba", "etl", "api", "csv", "pdf", "fx"}
 
 
 def api(path: str):
