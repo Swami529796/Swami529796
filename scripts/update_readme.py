@@ -30,11 +30,14 @@ STATS = ROOT / "assets" / "stats.svg"
 
 # (heading, topic that puts a repository in this group); the first match wins
 GROUPS = [
+    ("🤖 Data Science", "data-science"),
+    ("🔄 ETL &amp; Data Pipelines", "etl-pipeline"),
     ("🗄️ SQL", "sql"),
     ("📗 Excel &amp; VBA", "vba"),
     ("🐍 Python", "python"),
 ]
-DISPLAY_ORDER = ["📗 Excel &amp; VBA", "🐍 Python", "🗄️ SQL", "🧩 Other"]
+DISPLAY_ORDER = ["📗 Excel &amp; VBA", "🐍 Python", "🗄️ SQL", "🔄 ETL &amp; Data Pipelines", "🤖 Data Science",
+                 "🧩 Other"]
 LANGUAGE_COLOURS = {"VBA": "#867db1", "Python": "#3776ab", "SQL": "#e38c00", "JavaScript": "#f1e05a",
                     "HTML": "#e34c26", "CSS": "#563d7c"}
 UPPERCASE_WORDS = {"sql", "vba", "etl", "api", "csv", "pdf"}
@@ -118,8 +121,9 @@ def stats_card(repos: list[dict], languages: dict[str, int]) -> str:
     counts = {heading: 0 for heading in DISPLAY_ORDER}
     for repo in repos:
         counts[group_of(repo)] += 1
-    tiles = [("Projects", len(repos)), ("Excel & VBA", counts["📗 Excel &amp; VBA"]),
-             ("Python", counts["🐍 Python"]), ("SQL", counts["🗄️ SQL"])]
+    tiles = [("Projects", len(repos)), ("VBA", counts["📗 Excel &amp; VBA"]), ("Python", counts["🐍 Python"]),
+             ("SQL", counts["🗄️ SQL"]), ("ETL", counts["🔄 ETL &amp; Data Pipelines"]),
+             ("Data science", counts["🤖 Data Science"])]
 
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="100%" role="img" '
              'aria-label="Portfolio at a glance">',
@@ -130,7 +134,7 @@ def stats_card(repos: list[dict], languages: dict[str, int]) -> str:
              '<rect width="1000" height="150" rx="14" fill="#12324f"/>',
              '<text x="36" y="38" class="h">PORTFOLIO AT A GLANCE</text>']
     for index, (label, value) in enumerate(tiles):
-        x = 36 + index * 112
+        x = 36 + index * 80
         parts.append(f'<text x="{x}" y="92" class="n">{value}</text><text x="{x}" y="116" class="l">{escape(label)}</text>')
 
     total = sum(languages.values())
