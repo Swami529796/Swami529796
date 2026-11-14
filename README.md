@@ -30,10 +30,7 @@ Everything here is **practical and documented**: each project starts from a busi
 
 Each project covers one stage of the reporting journey, so together they form a complete toolkit.
 
-```mermaid
-flowchart LR
-    A["📥 Raw files"] --> B["🧹 Clean"] --> C["🔗 Consolidate"] --> D["⚖️ Reconcile"] --> E["🧮 Analyse"] --> F["📄 Report"] --> G["📊 Dashboard"]
-```
+<p align="center"><b>📥 Raw files &nbsp;→&nbsp; 🧹 Clean &nbsp;→&nbsp; 🔗 Consolidate &nbsp;→&nbsp; ⚖️ Reconcile &nbsp;→&nbsp; 🧮 Analyse &nbsp;→&nbsp; 📄 Report &nbsp;→&nbsp; 📊 Dashboard</b></p>
 
 | Stage | Project |
 |---|---|
