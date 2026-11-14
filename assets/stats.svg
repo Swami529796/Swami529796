@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="100%" role="img" aria-label="Portfolio at a glance">
+<style>.n{font:700 34px "Segoe UI",Helvetica,Arial,sans-serif;fill:#fff}.l{font:400 13px "Segoe UI",Helvetica,Arial,sans-serif;fill:#bcd6ea}.h{font:600 13px "Segoe UI",Helvetica,Arial,sans-serif;fill:#bcd6ea;letter-spacing:1px}.g{font:400 13px "Segoe UI",Helvetica,Arial,sans-serif;fill:#fff}</style>
+<rect width="1000" height="150" rx="14" fill="#12324f"/>
+<text x="36" y="38" class="h">PORTFOLIO AT A GLANCE</text>
+<text x="36" y="92" class="n">10</text><text x="36" y="116" class="l">Projects</text>
+<text x="148" y="92" class="n">5</text><text x="148" y="116" class="l">Excel &amp; VBA</text>
+<text x="260" y="92" class="n">3</text><text x="260" y="116" class="l">Python</text>
+<text x="372" y="92" class="n">2</text><text x="372" y="116" class="l">SQL</text>
+<text x="520" y="38" class="h">CODE BY LANGUAGE</text>
+<clipPath id="bar"><rect x="520.0" y="58" width="444.0" height="14" rx="7"/></clipPath><g clip-path="url(#bar)">
+<rect x="520.0" y="58" width="279.1" height="14" fill="#867db1"/>
+<rect x="799.1" y="58" width="117.1" height="14" fill="#3776ab"/>
+<rect x="916.3" y="58" width="47.7" height="14" fill="#e38c00"/>
+</g>
+<circle cx="525" cy="96" r="5" fill="#867db1"/><text x="538" y="100" class="g">VBA 60%</text>
+<circle cx="675" cy="96" r="5" fill="#3776ab"/><text x="688" y="100" class="g">Python 25%</text>
+<circle cx="825" cy="96" r="5" fill="#e38c00"/><text x="838" y="100" class="g">SQL 10%</text>
+</svg>
