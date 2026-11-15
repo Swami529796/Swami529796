@@ -65,9 +65,9 @@ Each project covers one stage of the reporting journey, so together they form a 
 
 | Project | What it does | Built with | Updated |
 |---|---|---|---|
+| **[VBA Utilities Library](https://github.com/Swami529796/vba-utilities-library)** | Reusable VBA modules for logging, error handling, arrays, files, sheets and text, with an 80-check built-in test suite. | `automation` `excel` `library` `utilities` `vba` | 14 Nov 2026 |
 | **[Excel File Consolidator](https://github.com/Swami529796/excel-file-consolidator)** | Merge every Excel/CSV file in a folder into one master sheet with header validation, source tracking and an audit log. VBA. | `automation` `data-consolidation` `excel` `vba` | 14 Nov 2026 |
 | **[Excel Data Cleaning Toolkit](https://github.com/Swami529796/excel-data-cleaning-toolkit)** | Custom Excel ribbon tab with one-click data cleaning: trim, fix dates, text to numbers, remove duplicates, fill blanks, split columns and undo. VBA. | `add-in` `automation` `data-cleaning` `excel` `ribbon` | 14 Nov 2026 |
-| **[VBA Utilities Library](https://github.com/Swami529796/vba-utilities-library)** | Reusable VBA modules for logging, error handling, arrays, files, sheets and text, with an 80-check built-in test suite. | `automation` `excel` `library` `utilities` `vba` | 14 Nov 2026 |
 | **[Excel Data Reconciliation](https://github.com/Swami529796/excel-data-reconciliation)** | Compare two datasets on a key in Excel: flags matches, mismatches (with the differing columns), missing records and duplicates. VBA. | `automation` `data-quality` `excel` `reconciliation` `vba` | 14 Nov 2026 |
 | **[Excel Report Generator](https://github.com/Swami529796/excel-report-generator)** | Build a formatted monthly PDF report per region with KPIs, product breakdown and trend chart, plus Outlook drafts. VBA. | `automation` `excel` `outlook` `reporting` `vba` | 31 Oct 2026 |
 
@@ -75,11 +75,11 @@ Each project covers one stage of the reporting journey, so together they form a 
 
 | Project | What it does | Built with | Updated |
 |---|---|---|---|
-| **[Python Excel Report Distributor](https://github.com/Swami529796/python-excel-report-distributor)** | Split a master workbook into one formatted Excel report per person and prepare an email draft for each, with the report attached. | `automation` `excel` `openpyxl` `python` `reporting` | 14 Nov 2026 |
-| **[Python PDF Invoice Extractor](https://github.com/Swami529796/python-pdf-invoice-extractor)** | Extract invoice data from PDFs in different vendor layouts into Excel, with arithmetic checks, duplicate detection and an issues log. | `automation` `invoice-processing` `pandas` `pdf` `python` | 14 Nov 2026 |
 | **[Sales Dashboard Flask](https://github.com/Swami529796/sales-dashboard-flask)** | Interactive sales dashboard that reads straight from an Excel workbook: Flask, pandas and Chart.js with filters and period comparison. | `chartjs` `dashboard` `excel` `flask` `pandas` | 14 Nov 2026 |
 | **[Python Report Generator](https://github.com/Swami529796/python-report-generator)** | Generate a one-page PDF sales report per region with KPIs, product breakdown and trend chart. Python rebuild of my VBA report generator. | `automation` `matplotlib` `pandas` `pdf` `python` | 14 Nov 2026 |
 | **[Python File Consolidator](https://github.com/Swami529796/python-file-consolidator)** | Merge every Excel/CSV file in a folder into one master workbook with header validation and an audit log. Python rebuild of my VBA consolidator. | `automation` `data-consolidation` `excel` `openpyxl` `pandas` | 14 Nov 2026 |
+| **[Python Excel Report Distributor](https://github.com/Swami529796/python-excel-report-distributor)** | Split a master workbook into one formatted Excel report per person and prepare an email draft for each, with the report attached. | `automation` `excel` `openpyxl` `python` `reporting` | 14 Nov 2026 |
+| **[Python PDF Invoice Extractor](https://github.com/Swami529796/python-pdf-invoice-extractor)** | Extract invoice data from PDFs in different vendor layouts into Excel, with arithmetic checks, duplicate detection and an issues log. | `automation` `invoice-processing` `pandas` `pdf` `python` | 14 Nov 2026 |
 
 ### 🗄️ SQL
 
@@ -121,11 +121,11 @@ I rebuild my VBA projects in Python to compare the two approaches honestly. Neit
 ## 🕒 Latest activity
 
 <!--START:activity-->
-- `14 Nov 2026` &nbsp; **[etl-fx-rates-pipeline](https://github.com/Swami529796/etl-fx-rates-pipeline)**: Add FX Rates ETL Pipeline: API extract, upsert load, tests and docs
-- `14 Nov 2026` &nbsp; **[etl-sales-data-warehouse](https://github.com/Swami529796/etl-sales-data-warehouse)**: Add Sales Data Warehouse ETL: pipeline, schema, sample sources, tests and docs
-- `14 Nov 2026` &nbsp; **[customer-churn-prediction](https://github.com/Swami529796/customer-churn-prediction)**: Add Customer Churn Prediction: model, sample data, tests and docs
-- `14 Nov 2026` &nbsp; **[sales-forecasting-python](https://github.com/Swami529796/sales-forecasting-python)**: Add Sales Forecasting: models, backtest, sample data, tests and docs
-- `14 Nov 2026` &nbsp; **[python-excel-report-distributor](https://github.com/Swami529796/python-excel-report-distributor)**: Add Excel Report Distributor: script, sample data, tests and docs
+- `14 Nov 2026` &nbsp; **[vba-utilities-library](https://github.com/Swami529796/vba-utilities-library)**: Add VBA Utilities Library: seven modules, test workbook and docs
+- `14 Nov 2026` &nbsp; **[excel-file-consolidator](https://github.com/Swami529796/excel-file-consolidator)**: Add working FileConsolidator workbook with macro
+- `14 Nov 2026` &nbsp; **[excel-data-cleaning-toolkit](https://github.com/Swami529796/excel-data-cleaning-toolkit)**: Add Data Cleaning Toolkit: VBA, ribbon tab, sample workbook and docs
+- `14 Nov 2026` &nbsp; **[excel-data-reconciliation](https://github.com/Swami529796/excel-data-reconciliation)**: Add Data Reconciliation Tool: VBA, sample workbook and docs
+- `14 Nov 2026` &nbsp; **[sales-dashboard-flask](https://github.com/Swami529796/sales-dashboard-flask)**: Add Sales Dashboard: Flask app, sample workbook, tests and docs
 <!--END:activity-->
 
 ## 📫 Let's connect
@@ -135,5 +135,5 @@ I'm always glad to talk with fellow data and automation professionals.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swaminathan-narayanan-9781a7154/)
 
 <!--START:updated-->
-<sub>🔄 Project list and stats last refreshed automatically on 14 Nov 2026 by a GitHub Action in this repository.</sub>
+<sub>🔄 Project list and stats last refreshed automatically on 15 Nov 2026 by a GitHub Action in this repository.</sub>
 <!--END:updated-->
