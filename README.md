@@ -75,6 +75,11 @@ Each project covers one stage of the reporting journey, so together they form a 
 
 | Project | What it does | Built with | Updated |
 |---|---|---|---|
+| **[Kpi Anomaly Alerts](https://github.com/Swami529796/kpi-anomaly-alerts)** | Weekday-aware KPI anomaly detection in Python: robust median/MAD baselines, a ranked morning HTML/email digest, and an honest backtest against fixed thresholds. | `anomaly-detection` `automation` `monitoring` `pandas` `python` | 15 Nov 2026 |
+| **[Data Quality Profiler](https://github.com/Swami529796/data-quality-profiler)** | Profiles any CSV or Excel file with no setup, checks optional YAML business rules, and writes an HTML and Excel data quality report with a 0-100 score. | `automation` `data-profiling` `data-quality` `pandas` `python` | 15 Nov 2026 |
+| **[Excel Workbook Diff](https://github.com/Swami529796/excel-workbook-diff)** | Track changes for Excel: compares two workbook versions and reports added, removed and moved rows, changed cells and formulas overwritten by typed numbers. | `automation` `excel` `openpyxl` `python` `version-control` | 15 Nov 2026 |
+| **[Bank Reconciliation Fuzzy Matcher](https://github.com/Swami529796/bank-reconciliation-fuzzy-matcher)** | Staged bank reconciliation in Python: exact, date-window, fuzzy and one-to-many matching with confidence scores, a review list and measured precision/recall. | `automation` `finance` `fuzzy-matching` `pandas` `python` | 15 Nov 2026 |
+| **[Excel Formula Auditor](https://github.com/Swami529796/excel-formula-auditor)** | Audits Excel workbooks for risky formulas: broken patterns, typed-over values, short SUM ranges, #REF! errors and hard-coded numbers. Python + openpyxl. | `audit` `automation` `excel` `openpyxl` `python` | 15 Nov 2026 |
 | **[Sales Dashboard Flask](https://github.com/Swami529796/sales-dashboard-flask)** | Interactive sales dashboard that reads straight from an Excel workbook: Flask, pandas and Chart.js with filters and period comparison. | `chartjs` `dashboard` `excel` `flask` `pandas` | 14 Nov 2026 |
 | **[Python Report Generator](https://github.com/Swami529796/python-report-generator)** | Generate a one-page PDF sales report per region with KPIs, product breakdown and trend chart. Python rebuild of my VBA report generator. | `automation` `matplotlib` `pandas` `pdf` `python` | 14 Nov 2026 |
 | **[Python File Consolidator](https://github.com/Swami529796/python-file-consolidator)** | Merge every Excel/CSV file in a folder into one master workbook with header validation and an audit log. Python rebuild of my VBA consolidator. | `automation` `data-consolidation` `excel` `openpyxl` `pandas` | 14 Nov 2026 |
@@ -99,6 +104,11 @@ Each project covers one stage of the reporting journey, so together they form a 
 
 | Project | What it does | Built with | Updated |
 |---|---|---|---|
+| **[Inventory Reorder Optimizer](https://github.com/Swami529796/inventory-reorder-optimizer)** | Item-level safety stock, reorder point and order quantity (ABC-XYZ, intermittent demand), tested by day-by-day replay against a 30-days-of-stock rule. | `data-science` `inventory-optimization` `pandas` `python` `supply-chain` | 16 Nov 2026 |
+| **[Market Basket Recommender](https://github.com/Swami529796/market-basket-recommender)** | Market basket analysis in Python: hand-written Apriori, rules checked for lift and significance, customers-also-bought lists, bundle estimates and a hold-out test. | `data-science` `pandas` `python` `recommendation` `retail-analytics` | 16 Nov 2026 |
+| **[Price Elasticity Optimizer](https://github.com/Swami529796/price-elasticity-optimizer)** | Estimates each product's price elasticity from weekly sales (log-log OLS with partial pooling) and recommends capped, profit-maximising prices. | `data-science` `pricing` `python` `regression` `statsmodels` | 16 Nov 2026 |
+| **[Customer Lifetime Value](https://github.com/Swami529796/customer-lifetime-value)** | Predicts each customer's spend over the next 12 months from order history and proves it on a time-based holdout: baseline vs simple rule vs gradient boosting. | `customer-analytics` `data-science` `marketing-analytics` `python` `scikit-learn` | 16 Nov 2026 |
+| **[Expense Fraud Detection](https://github.com/Swami529796/expense-fraud-detection)** | Scores employee expense claims with explainable rules, Benford's law and IsolationForest, and gives internal audit a ranked list with plain-word reasons. | `anomaly-detection` `audit` `data-science` `python` `scikit-learn` | 15 Nov 2026 |
 | **[Customer Churn Prediction](https://github.com/Swami529796/customer-churn-prediction)** | Customer churn model with scikit-learn: ranks customers by risk, explains the drivers and sizes the retention campaign that pays off. | `churn-prediction` `data-science` `machine-learning` `python` `scikit-learn` | 14 Nov 2026 |
 | **[Sales Forecasting Python](https://github.com/Swami529796/sales-forecasting-python)** | Monthly sales forecasting: backtests three models per category, picks the most accurate and forecasts six months with an 80% range. | `data-science` `forecasting` `python` `scikit-learn` `time-series` | 14 Nov 2026 |
 <!--END:projects-->
@@ -121,11 +131,11 @@ I rebuild my VBA projects in Python to compare the two approaches honestly. Neit
 ## 🕒 Latest activity
 
 <!--START:activity-->
-- `14 Nov 2026` &nbsp; **[vba-utilities-library](https://github.com/Swami529796/vba-utilities-library)**: Add VBA Utilities Library: seven modules, test workbook and docs
-- `14 Nov 2026` &nbsp; **[excel-file-consolidator](https://github.com/Swami529796/excel-file-consolidator)**: Add working FileConsolidator workbook with macro
-- `14 Nov 2026` &nbsp; **[excel-data-cleaning-toolkit](https://github.com/Swami529796/excel-data-cleaning-toolkit)**: Add Data Cleaning Toolkit: VBA, ribbon tab, sample workbook and docs
-- `14 Nov 2026` &nbsp; **[excel-data-reconciliation](https://github.com/Swami529796/excel-data-reconciliation)**: Add Data Reconciliation Tool: VBA, sample workbook and docs
-- `14 Nov 2026` &nbsp; **[sales-dashboard-flask](https://github.com/Swami529796/sales-dashboard-flask)**: Add Sales Dashboard: Flask app, sample workbook, tests and docs
+- `16 Nov 2026` &nbsp; **[inventory-reorder-optimizer](https://github.com/Swami529796/inventory-reorder-optimizer)**: Add Inventory Reorder Optimizer: ABC-XYZ policy, simulation, sample data, tests and docs
+- `16 Nov 2026` &nbsp; **[market-basket-recommender](https://github.com/Swami529796/market-basket-recommender)**: Add Market Basket Recommender: Apriori rules, recommendations, bundles, evaluation, sample data, tests and docs
+- `16 Nov 2026` &nbsp; **[price-elasticity-optimizer](https://github.com/Swami529796/price-elasticity-optimizer)**: Add Price Elasticity Optimizer: estimates, capped price recommendations, sample data, tests and docs
+- `16 Nov 2026` &nbsp; **[customer-lifetime-value](https://github.com/Swami529796/customer-lifetime-value)**: Add Customer Lifetime Value Prediction: model, holdout test, sample data, tests and docs
+- `15 Nov 2026` &nbsp; **[expense-fraud-detection](https://github.com/Swami529796/expense-fraud-detection)**: Add Expense Claim Audit: rules, Benford test, model, sample data, tests and docs
 <!--END:activity-->
 
 ## 📫 Let's connect
@@ -135,5 +145,5 @@ I'm always glad to talk with fellow data and automation professionals.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swaminathan-narayanan-9781a7154/)
 
 <!--START:updated-->
-<sub>🔄 Project list and stats last refreshed automatically on 15 Nov 2026 by a GitHub Action in this repository.</sub>
+<sub>🔄 Project list and stats last refreshed automatically on 16 Nov 2026 by a GitHub Action in this repository.</sub>
 <!--END:updated-->
